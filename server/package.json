@@ -1,6 +1,5 @@
 {
   "name": "@template_fullstack/server",
-  "type": "module",
   "scripts": {
     "check-types": "tsc --noEmit",
     "dev": "tsx watch --clear-screen=false ./src/main",
