@@ -2,7 +2,10 @@
   "name": "template_fullstack",
   "version": "0.0.1",
   "description": "",
-  "workspaces": ["client", "server"],
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "build": "npm run build --workspaces --if-present",
     "check": "biome check --error-on-warnings --no-errors-on-unmatched --staged . && npm run check-types --workspaces --if-present",
@@ -19,6 +22,7 @@
   "author": "{{ org }}",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "concurrently": "^9.1.2"
   }
 }
