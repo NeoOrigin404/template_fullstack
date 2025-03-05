@@ -1,5 +1,6 @@
 {
   "name": "@template_fullstack/server",
+  "main": "dist/src/main.js",
   "scripts": {
     "check-types": "tsc --noEmit",
     "dev": "tsx watch --clear-screen=false ./src/main",
@@ -9,7 +10,6 @@
     "start": "node ../dist/src/main"
   },
   "dependencies": {
-    "@faker-js/faker": "^9.5.1",
     "argon2": "^0.41.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
